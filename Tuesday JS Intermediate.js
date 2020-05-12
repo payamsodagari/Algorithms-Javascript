@@ -1,33 +1,27 @@
 //1. Addition
 
-for(let index = 200;index <= 270; index++) {
-    if((index % 5 === 0 || index % 3 === 0) && index % 15 !== 0){
-        console.log(index)
+for(let i = 200;i <= 270; i++) {
+    if((i % 5 === 0 || i % 3 === 0) && i % 15 !== 0){
+        console.log(i)
     }
 }
 
 
-for(let index = 200;index <= 2700; index++) {
-    if(index % 5 === 0 && index % 3 === 0){
+for(let i = 200;i <= 2700; i++) {
+    if(i % 5 === 0 && i % 3 === 0){
         console.log("not return ")
-    } else if( index % 3 === 0){
-        console.log(index, "3")
-    } else if(index % 5 === 0){
-    console.log(index, "5")
+    } else if( i % 3 === 0){
+        console.log(i, "3")
+    } else if(i % 5 === 0){
+    console.log(i, "5")
     }
 }
 
 
 //2. Shift the Values
-x = [2, 1, 6, 4, -7]
-for(let index = 0;index <= x.length; index++){
-    console.log(x[index])
-}
-
-
 const x = [2, 1, 6, 4, -7]
-for(let index = x.length -1;index >= 0; index--){
-    console.log(x[index])
+for(let i = x.length-1; i >= 0; i--){
+    console.log(x[i])
 }
 
 //3. FizzBuzz
@@ -53,6 +47,24 @@ for(var i = 0; i < 22; i= a+b) {
   a=b;
   b=i;
 }
+
+
+let a = 0, b = 1, c = b
+for(let i = 0; i<= 10; i++) {
+    console.log(a)
+    c = a + b
+    a = b
+    b = c
+}
+
+
+let fibonacci = []
+fibonacci[0] = 0
+fibonacci[1] = 1
+for(let i = 2; i<= 10; i++) {
+    fibonacci[i] = fibonacci[i-1] + fibonacci[i-2]
+}
+console.log(fibonacci)
 
 
 //5. Remove the Negative
