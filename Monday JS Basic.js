@@ -9,9 +9,9 @@ for(num = 1; num <= 135; num ++){
   }
   
 
-  for (let index = 1; index <= 135; index++){
-    if(index % 2 === 1){
-      console.log(index)
+  for (let i = 1; i <= 135; i++){
+    if(i % 2 === 1){
+      console.log(i)
     }
   }
 
@@ -25,8 +25,8 @@ for(i =0; i <= 40; i++){
 //4. Print the elements of an array
 
 var x = [1, 4, 2, 12];
-for (let index = 0; index <= x.length-1; index++){
-    console.log(x[index])
+for (let i = 0; i <= x.length-1; i++){
+    console.log(x[i])
   }
 
 
